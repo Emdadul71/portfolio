@@ -6,8 +6,9 @@ import { pointsInner, pointsOuter } from "@/helpers/utils-2";
 const PointCircle = () => {
   const ref = useRef(null);
 
-  useFrame(({ clock }) => {
+  useFrame(({ clock }: any) => {
     if (ref.current?.rotation) {
+      // eslint-disable-next-line
       ref.current.rotation.z = clock.getElapsedTime() * 0.05;
     }
   });
