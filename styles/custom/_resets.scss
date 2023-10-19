@@ -1,0 +1,106 @@
+.web_stories {
+  .slick-list {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.from_texteditor_wrapper {
+  ul {
+    list-style: disc !important;
+    li {
+      list-style-image: url("/images/icons/list-icon.svg");
+      margin-left: 30px;
+      padding-left: 10px;
+    }
+  }
+  ol {
+    list-style: auto !important;
+    margin-left: 16px;
+  }
+}
+
+.custom-shadow {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.hw-inner {
+  height: 20rem;
+  width: 20rem;
+}
+
+.hw-outer {
+  height: 28rem;
+  width: 28rem;
+}
+
+.w-terminal {
+  width: 34rem;
+}
+
+@media (max-width: 768px) {
+  .hw-inner {
+    height: 14rem;
+    width: 14rem;
+  }
+  .hw-outer {
+    height: 20rem;
+    width: 20rem;
+  }
+  .w-terminal {
+    width: 24rem;
+  }
+}
+
+.custom-ani {
+  animation-name: spinSlow;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.custom-ani-2 {
+  animation-name: spinSlow;
+  animation-duration: 50s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.rotate-img {
+  animation-name: rotate-img;
+  animation-duration: 8s;
+}
+
+@keyframes spinSlow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-img {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-90deg);
+  }
+  50% {
+    transform: rotate(-180deg);
+  }
+  75% {
+    transform: rotate(-270deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.test {
+  background: rgba(129, 140, 248, 0) !important;
+}
+
+.gradient {
+  background: linear-gradient(180deg, rgba(31, 40, 48, 0) 38.5%, #1f2830 100%);
+  transition: all 0.3s;
+}
