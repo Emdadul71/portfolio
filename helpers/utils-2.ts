@@ -1,8 +1,8 @@
 const MIN_RADIUS = 7.5;
 const MAX_RADIUS = 15;
 const DEPTH = 2;
-const LEFT_COLOR = "6366f1";
-const RIGHT_COLOR = "8b5cf6";
+const LEFT_COLOR: any = "6366f1";
+const RIGHT_COLOR: any = "8b5cf6";
 const NUM_POINTS = 2500;
 
 const getGradientStop = (ratio: any) => {
@@ -11,10 +11,10 @@ const getGradientStop = (ratio: any) => {
   ratio = ratio > 1 ? 1 : ratio < 0 ? 0 : ratio;
 
   const c0 = LEFT_COLOR.match(/.{1,2}/g).map(
-    (oct) => parseInt(oct, 16) * (1 - ratio)
+    (oct: any) => parseInt(oct, 16) * (1 - ratio)
   );
   const c1 = RIGHT_COLOR.match(/.{1,2}/g).map(
-    (oct) => parseInt(oct, 16) * ratio
+    (oct: any) => parseInt(oct, 16) * ratio
   );
   const ci = [0, 1, 2].map((i) => Math.min(Math.round(c0[i] + c1[i]), 255));
   const color = ci
