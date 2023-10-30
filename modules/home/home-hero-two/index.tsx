@@ -1,3 +1,5 @@
+"use client";
+import DownloadButton from "@/modules/@common/download-button";
 import React from "react";
 
 const HomeHeroTwo = () => {
@@ -39,9 +41,7 @@ const HomeHeroTwo = () => {
                     A FrontEnd Engineer
                   </h1>
                   <div className="flex justify-center mt-8">
-                    <button className="btn btn-white rounded-md">
-                      Download CV
-                    </button>
+                    <DownloadButton classes={{ root: `btn-white` }} />
                   </div>
                 </div>
               </div>

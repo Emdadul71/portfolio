@@ -38,6 +38,20 @@ const data = [
     tooles: ["Nextjs", "Ant Design", "Nestjs", "Redux", "Tailwind"],
     link: `https://www.24onbd.com/`,
   },
+  {
+    imgSrc: "/images/bdwinners.webp",
+    alt: `BD Winners Logo`,
+    title: `BD Winners (Brand Promotion)`,
+    tooles: ["Nextjs", "Ant Design", "Nestjs", "Redux", "Tailwind"],
+    link: `https://dev.bdwinners.com/`,
+  },
+  {
+    imgSrc: "/images/monitrix.webp",
+    alt: `Monitrix Logo`,
+    title: `Monitrix (Website Uptime Monitoring)`,
+    tooles: ["Nextjs", "Ant Design", "Nestjs", "Redux", "Tailwind"],
+    link: `https://dev.monitrix.online/`,
+  },
 ];
 const Projects = () => {
   return (

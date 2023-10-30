@@ -20,6 +20,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import Image from "next/image";
+import DownloadButton from "../../download-button";
 
 const Header = () => {
   const [scroll, setScroll] = useState(false);
@@ -239,7 +240,7 @@ const Header = () => {
           </div>
         </div> */}
 
-        <div className="bg-grey">
+        <div className="bg-grey ">
           <div className="container">
             <div className="grid grid-cols-[1fr_auto] lg:grid-cols-[230px_auto_auto] justify-between items-center relative">
               {/* <div>
@@ -385,9 +386,7 @@ const Header = () => {
               )}
 
               <div className="flex gap-4">
-                <Link href="#" className="btn btn-primary rounded-md">
-                  Download CV
-                </Link>
+                <DownloadButton classes={{ root: `btn-primary` }} />
                 <div className="block lg:hidden order-2">
                   <button
                     className={`text-2xl mt-1`}
