@@ -4,6 +4,8 @@ import MyWork from "./my-work";
 import ChipTabs from "./test";
 import HomeHeroTwo from "./home-hero-two";
 import Projects from "./project";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { RiDualSim1Line } from "react-icons/ri";
 
 const Home = () => {
   return (
