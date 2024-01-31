@@ -11,6 +11,79 @@ const Home = () => {
       <HomeHeroTwo />
       {/* <HomeHero /> */}
       {/* <MyWork /> */}
+      <section>
+        <div className="container">
+          <h3 className="font-normal mb-5">Call history details</h3>
+          <div className="flex flex-col gap-5">
+            <div className="flex items-center justify-between gap-16">
+              <div>
+                <p className="font-semibold">6:38 PM</p>
+                <p className="text-xs font-light	">+8801710430601</p>
+              </div>
+              <div className="flex gap-1">
+                <p className="text-xs">Rejected</p>
+                <RiDualSim1Line />
+                <MdOutlineKeyboardArrowRight />
+              </div>
+            </div>
+            <div className="flex items-center justify-between gap-16">
+              <div>
+                <p className="font-semibold">6:38 PM</p>
+                <p className="text-xs font-light	">+8801710430601</p>
+              </div>
+              <div className="flex gap-1">
+                <p className="text-xs">Rejected</p>
+                <RiDualSim1Line />
+                <MdOutlineKeyboardArrowRight />
+              </div>
+            </div>
+            <div className="flex items-center justify-between gap-16">
+              <div>
+                <p className="font-semibold">6:37 PM</p>
+                <p className="text-xs font-light	">+8801710430601</p>
+              </div>
+              <div className="flex gap-1">
+                <p className="text-xs">Rejected</p>
+                <RiDualSim1Line />
+                <MdOutlineKeyboardArrowRight />
+              </div>
+            </div>
+            <div className="flex items-center justify-between gap-16">
+              <div>
+                <p className="font-semibold">6:37 PM</p>
+                <p className="text-xs font-light	">+8801710430601</p>
+              </div>
+              <div className="flex gap-1">
+                <p className="text-xs">Rejected</p>
+                <RiDualSim1Line />
+                <MdOutlineKeyboardArrowRight />
+              </div>
+            </div>
+            <div className="flex items-center justify-between gap-16">
+              <div>
+                <p className="font-semibold">Jan 29 4:28 PM</p>
+                <p className="text-xs font-light	">+8801710430601</p>
+              </div>
+              <div className="flex gap-1">
+                <p className="text-xs">Outgoing : 1m 42 sec</p>
+                <RiDualSim1Line />
+                <MdOutlineKeyboardArrowRight />
+              </div>
+            </div>
+            <div className="flex items-center justify-between gap-16">
+              <div>
+                <p className="font-semibold">Jan 24 10:25 AM</p>
+                <p className="text-xs font-light	">+8801710430601</p>
+              </div>
+              <div className="flex gap-1">
+                <p className="text-xs">Incoming : 9 min</p>
+                <RiDualSim1Line />
+                <MdOutlineKeyboardArrowRight />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <ChipTabs />
       <Projects />
